@@ -1,7 +1,18 @@
+.navbar {
+  float: left;
+  height: 100vh;
+  background-color: palegreen;
+
+}
+
+#main-doc {
+  padding-left: 25px;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 900px) {
   .navbar a{
     float: right;
     width: 100%;
-
   }
 }
