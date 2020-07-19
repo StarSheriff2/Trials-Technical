@@ -8,37 +8,87 @@
   <body>
     <div class="main"id="main-doc" >
       <h1 >This page is about HTML</h1>
-      <section class="main-section" id="introduction" >
+      <section class="main-section" id="Introduction" >
         <header >
-           Introduction
+            Introduction
         </header>
+        <p>HTML is a language for describing the structure of Web pages. HTML stands for 
+            HyperText Markup Language. Web pages consist of markup tags and plain text. HTML5 is the next generation of HTML.
+        </p>
+        <p>The HTML5 work stems from the WHATWG ( Web Hypertext Application 
+            Technology Working Group), HTML and their focus is the development of HTML and APIs for web applications.<br>
+
+            Since the early days of the web, there have been many versions of HTML:<br>
+        </p>
+
+        <ul>
+            <li>HTML</li>
+            <li>HTML 2.0</li>
+            <li>HTML 3.2</li>
+            <li>HTML 4.01</li>
+            <li>XHTML</li>
+            <li>HTML5</li>
+        </ul>
 
       </section>
-      <section class="main-section" id="doctype_declaration">
+      <section class="main-section" id="Doctype_Declaration">
         <header >
             Doctype Declaration
         </header>
+        <p>Every time you start an HTML project you need to tell the browser which version of HTML your page is using.
+            Most major browsers support the latest specification, which is HTML5. However, older web pages may use previous versions of the language.
+        </p>
+        <p>
+            You tell the browser this information by adding the <code>&lt! DOCTYPE ...&gt</code> tag on the first line, where the  <code>...</code> 
+            part is the version of HTML. For HTML5, you use <code>&lt!DOCTYPE html&gt</code>.
+        </p>
 
       </section>
-      <section class="main-section" id="comment_out_html">
+      <section class="main-section" id="Comment_Out_HTML">
         <header>
-          Comment Out HTMl
+          Comment Out HTML
 
         </header>
-
+        <p>Sometimes we don't want include certain text in our code. To do this we can use the "comment out"
+            HTML feature. In order to start a comment, you need to use <code>&lt!-- and to end a comment, you need to use --&gt</code>.
+        </p>
+        <p>Commenting out is useful.
+        </p>
       </section>
-      <section class="main-section" id="link_to_internal_sections">
+      <section class="main-section" id="Link_to_Internal_Sections">
         <header>
-          Linkto Internal Sections
+          Link to Internal Sections
         </header>
+        <p>To create an internal link, you assign a link's href attribute to a hash symbol # plus the 
+            value of the id attribute for the element that you want to internally link to, usually further down the page. 
+            You then need to add the same id attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
+        </p>
+        <p>Below is an example of an internal anchor link and its target element:<br>
+
+            <code>
+                &lta href="#contacts-header">Contacts&lt/a><br>
+                ...<br>
+                &lth2 id="contacts-header">Contacts&lt/h2><br>
+            </code>
+        </p>
 
 
       </section>
-      <section class="main-section" id="adding_images">
+      <section class="main-section" id="Adding_Images">
         <header>
           Adding Images
 
         </header>
+        <p>You can add images to your website by using the img element, and point to a specific image's URL using the src attribute.
+        </p>
+
+        <p>An example of this would be:<br>
+            <code>
+                &ltimg src="https://www.your-image-source.com/your-image.jpg">
+
+            </code>
+            
+        </p>
 
 
       </section>
