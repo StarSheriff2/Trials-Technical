@@ -1,0 +1,7 @@
+@media screen and (max-width: 900px) {
+  .navbar a{
+    float: right;
+    width: 100%;
+
+  }
+}

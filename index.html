@@ -6,16 +6,30 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class="navbar">
+      <nav id="navbar">
+        <header>
+          <h1 >This page is about HTML</h1>
+        </header>
+        <a class="nav-link" href="#introduction">Introduction</a>
+        <a class="nav-link" href="#Doctype_Declaration">Doctype Declaration</a>
+        <a class="nav-link" href="#Comment_Out_HTML">Comment Out HTML</a>
+        <a class="nav-link" href="#Link_to_Internal_Sections">Link to Internal Sections</a>
+        <a class="nav-link" href="#Adding_Images">Adding Images</a>
+
+      </nav>
+
+    </div>
     <div class="main"id="main-doc" >
-      <h1 >This page is about HTML</h1>
+
       <section class="main-section" id="Introduction" >
         <header >
             Introduction
         </header>
-        <p>HTML is a language for describing the structure of Web pages. HTML stands for 
+        <p>HTML is a language for describing the structure of Web pages. HTML stands for
             HyperText Markup Language. Web pages consist of markup tags and plain text. HTML5 is the next generation of HTML.
         </p>
-        <p>The HTML5 work stems from the WHATWG ( Web Hypertext Application 
+        <p>The HTML5 work stems from the WHATWG ( Web Hypertext Application
             Technology Working Group), HTML and their focus is the development of HTML and APIs for web applications.<br>
 
             Since the early days of the web, there have been many versions of HTML:<br>
@@ -39,7 +53,7 @@
             Most major browsers support the latest specification, which is HTML5. However, older web pages may use previous versions of the language.
         </p>
         <p>
-            You tell the browser this information by adding the <code>&lt! DOCTYPE ...&gt</code> tag on the first line, where the  <code>...</code> 
+            You tell the browser this information by adding the <code>&lt! DOCTYPE ...&gt</code> tag on the first line, where the  <code>...</code>
             part is the version of HTML. For HTML5, you use <code>&lt!DOCTYPE html&gt</code>.
         </p>
 
@@ -59,8 +73,8 @@
         <header>
           Link to Internal Sections
         </header>
-        <p>To create an internal link, you assign a link's href attribute to a hash symbol # plus the 
-            value of the id attribute for the element that you want to internally link to, usually further down the page. 
+        <p>To create an internal link, you assign a link's href attribute to a hash symbol # plus the
+            value of the id attribute for the element that you want to internally link to, usually further down the page.
             You then need to add the same id attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
         </p>
         <p>Below is an example of an internal anchor link and its target element:<br>
@@ -87,7 +101,7 @@
                 &ltimg src="https://www.your-image-source.com/your-image.jpg">
 
             </code>
-            
+
         </p>
 
 
